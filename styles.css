@@ -19,15 +19,15 @@ body {margin: 0;
 .navbar a {
   font-family: "Strait", sans-serif;
   text-transform: uppercase;
-  font-size: 18px;
   letter-spacing: 1px;
+  font-size: 18px;
   float: left;
   display: block;
   color: #fff;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
-  font-weight: 500; /* Change font weight to 500 */
+  font-weight: 500;
 }
 
 /* Change text color on hover */
@@ -46,7 +46,6 @@ body {margin: 0;
   font-family: "Strait", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  letter-spacing: 1px;
   border: none;
   outline: none;
   color: #ffffff;
@@ -54,6 +53,7 @@ body {margin: 0;
   margin: 0;
   padding: 14px 20px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* Change text color for dropdown button on hover */
@@ -65,7 +65,7 @@ body {margin: 0;
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.8); /* Change background color to black with opacity at 80% */
+  background-color: rgba(0, 0, 0, 0.8);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
