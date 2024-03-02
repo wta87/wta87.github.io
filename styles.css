@@ -6,17 +6,21 @@ body {margin: 0;
 .navbar {
   overflow: hidden;
   background-color: #000;
+  font-size: 18px;
   margin: 0 auto;
   padding: 0;
   width: 100%;
   display: flex;
   justify-content: center;
+  letter-spacing: 1px;
 }
 
 /* Navigation links */
 .navbar a {
   font-family: "Strait", sans-serif;
   text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1px;
   float: left;
   display: block;
   color: #fff;
@@ -28,7 +32,7 @@ body {margin: 0;
 
 /* Change text color on hover */
 .navbar a:hover {
-  color: #99cc00; /* Change text color to #99cc00 on hover */
+  color: #99cc00;
 }
 
 /* Dropdown container */
@@ -40,20 +44,21 @@ body {margin: 0;
 /* Dropdown button */
 .dropbtn {
   font-family: "Strait", sans-serif;
-  font-size: 16px;
-  font-weight: 500; /* Change font weight to 500 */
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
   border: none;
   outline: none;
-  color: #ffffff; /* Change color to white */
-  background-color: transparent; /* No background color */
+  color: #ffffff;
+  background-color: transparent;
   margin: 0;
   padding: 14px 20px;
-  text-transform: uppercase; /* Uppercase text */
+  text-transform: uppercase;
 }
 
 /* Change text color for dropdown button on hover */
 .dropdown:hover .dropbtn {
-  color: #99cc00; /* Change text color to #99cc00 on hover */
+  color: #99cc00;
 }
 
 /* Dropdown content (hidden by default) */
