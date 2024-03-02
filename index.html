@@ -1,7 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropdown Navigation</title>
+<link rel="stylesheet" href="styles.css">
+<!-- Assuming you have the "Strait" font imported -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+</style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Start Here</button>
+    <div class="dropdown-content">
+      <a href="#">Getting Started</a>
+      <a href="#">Tutorials</a>
+      <a href="#">FAQs</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Destinations</button>
+    <div class="dropdown-content">
+      <a href="#">Europe</a>
+      <a href="#">Asia</a>
+      <a href="#">North America</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Discover</button>
+    <div class="dropdown-content">
+      <a href="#">Blog</a>
+      <a href="#">News</a>
+      <a href="#">Events</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Resources</button>
+    <div class="dropdown-content">
+      <a href="#">Downloads</a>
+      <a href="#">Articles</a>
+      <a href="#">Videos</a>
+    </div>
+  </div>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
+
 </body>
 </html>
