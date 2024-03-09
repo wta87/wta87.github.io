@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive Text Color</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Hello, World!</h1>
+    <img src="https://i0.wp.com/www.waytoadventure.com/wp-content/uploads/2020/06/stenshuvud-beach-1.jpg" id="image" style="display: none;">
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vibrant.js/2.1.2/Vibrant.min.js"></script>
+  <script>
+    var img = document.getElementById('image');
+    img.onload = function() {
+      var vibrant = new Vibrant(img);
+      var swatches = vibrant.swatches();
+      var textColor = getContrastingColor(swatches.Vibrant.getRgb());
+      document.getElementById('title').style.color = textColor;
+    };
+    img.src = img.src; // Trigger image loading
 
+    function getContrastingColor(rgb) {
+      var luminance = (0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]) / 255;
+      return luminance > 0.5 ? '#000' : '#fff'; // Use black or white depending on luminance
+    }
+  </script>
+</body>
+</html>
