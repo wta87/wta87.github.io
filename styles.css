@@ -94,3 +94,34 @@ body {margin: 0;
   display: block;
   text-decoration: none;
 }
+
+.footer {
+  background-color: #000;
+  color: white; /* Footer text color */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; /* Distribute space between sections */
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1; /* Equal space for each section */
+}
+
+.footer-bottom {
+  margin-top: 10px;
+}
+
+.footer a {
+  color: #bbb; /* Links in the footer */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white; /* Hover effect for links */
+}
