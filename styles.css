@@ -145,8 +145,11 @@ body {margin: 0;
   right: 0;
   z-index: -1;
 }
-  .title {
-  font-size: 36px;
+.title {
+  font-family: "Strait", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 40px;
   text-align: justify;
   font-weight: bold;
   display: flex;
