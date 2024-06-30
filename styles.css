@@ -159,6 +159,8 @@ body {margin: 0;
   /* 
 }
 .intro {
+  padding-left: 20%;
+  padding-right: 20%;
   font-family: "Strait", sans-serif;
   font-size: 24px;
   text-align: justify;
