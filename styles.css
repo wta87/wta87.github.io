@@ -135,6 +135,7 @@ body {margin: 0;
   background-color: white; /* Set white background for the content */
   font-family: "Strait", sans-serif;
   color: grey;
+  font-size: 18px;
 }
 
 .background-image {
