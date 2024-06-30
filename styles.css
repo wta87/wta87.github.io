@@ -133,6 +133,7 @@ body {margin: 0;
   padding-right: 20%;
   text-align: justify; /* Justify all text within .content */
   background-color: white; /* Set white background for the content */
+  font-family: "Strait", sans-serif;
 }
 
 .background-image {
@@ -175,7 +176,7 @@ body {margin: 0;
   border: none;
   height: 1px;
   width: 50%;
-  background-color: #dedede;
+  background: linear-gradient(to right, white, grey, white);
   margin: 0 auto;
   margin-bottom: 100px;
 }
