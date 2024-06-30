@@ -132,11 +132,14 @@ body {margin: 0;
   background-image: url('https://storage.googleapis.com/pod_public/1300/197990.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   padding-left: 200px;
   padding-right: 200px;
   /* 
 }
   .title {
   font-size: 36px;
+  text-align: justify;
+  font-weight: bold;
   /* 
 }
