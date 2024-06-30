@@ -134,7 +134,7 @@ body {margin: 0;
   text-align: justify; /* Justify all text within .content */
   background-color: white; /* Set white background for the content */
   font-family: "Strait", sans-serif;
-  color: black;
+  color: grey;
 }
 
 .background-image {
