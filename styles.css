@@ -153,8 +153,9 @@ body {margin: 0;
   text-align: justify;
   font-weight: bold;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 100vh; /* Adjust as needed */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
   /* 
 }
