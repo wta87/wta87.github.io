@@ -129,8 +129,8 @@ body {margin: 0;
 }
 
 .content {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: justify; /* Justify all text within .content */
   background-color: white; /* Set white background for the content */
 }
@@ -139,7 +139,6 @@ body {margin: 0;
   background-size: cover;
   background-position: center;
   height: 100vh;
- /* position: fixed;*/
   top: 0;
   left: 0;
   right: 0;
