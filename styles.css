@@ -130,7 +130,9 @@ body {margin: 0;
 
 .content {
   padding-left: 200px;
-  padding-right: 200px; 
+  padding-right: 200px;
+  text-align: justify; /* Justify all text within .content */
+  background-color: white; /* Set white background for the content */
 }
 .background-image {
   background-image: url('https://storage.googleapis.com/pod_public/1300/197990.jpg');
