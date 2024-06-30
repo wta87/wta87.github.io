@@ -129,13 +129,19 @@ body {margin: 0;
 }
 
 .content {
+  padding-left: 200px;
+  padding-right: 200px; 
+}
+.background-image {
   background-image: url('https://storage.googleapis.com/pod_public/1300/197990.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  padding-left: 200px;
-  padding-right: 200px;
-  /* 
+  height: 100vh;
+ /* position: fixed;*/
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
 }
   .title {
   font-size: 36px;
