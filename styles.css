@@ -127,3 +127,16 @@ body {margin: 0;
 .footer a:hover {
   color: white; /* Hover effect for links */
 }
+
+.content {
+  background-image: url('https://storage.googleapis.com/pod_public/1300/197990.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  /* 
+}
+  .title {
+  font-size: 36px;
+  /* 
+}
